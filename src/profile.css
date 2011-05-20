@@ -1,0 +1,21 @@
+.prfl_x {
+background-image:url('chrome-extension://__MSG_@@extension_id__/nop.gif');
+}
+.prfl_h {
+display: block;
+position: relative;
+margin: 5px 0 30px 20px;
+float: right;
+width: 120px;
+height: 120px;
+border: solid #888 1px;
+}
+.prfl_c {
+display: block;
+position: relative;
+float: right;
+margin: 5px 0 10px 20px;
+width: 90px;
+height: 90px;
+border: solid #888 1px;
+}

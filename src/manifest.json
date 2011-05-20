@@ -1,0 +1,20 @@
+{
+  "name": "hanpic",
+  "version": "1.0",
+  "description": "Hanwoorii Profile Image Viewer",
+  "homepage_url": "http://twitter.com/am0c",
+  "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+  },
+  "content_scripts": [{
+      "matches": ["http://hanwoorii.com/xe/*"],
+      "css": ["profile.css"],
+      "js": ["jquery.js", "profile.js"],
+      "run_at": "document_idle"
+  }],
+  "permissions": [
+    "http://hanwoorii.com/"
+  ]
+}
